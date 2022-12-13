@@ -32,3 +32,10 @@ Sequence Decoder: this is a recurrent network built with GRUs. The captions are 
 Attention: as the Decoder generates each word of the output sequence, the Attention module helps it to focus on the most relevant part of the image for generating that word.
 
 Sentence Generator: this module consists of a couple of Linear layers. It takes the output from the Decoder and produces a probability for each word from the vocabulary, for each position in the predicted sequence.
+
+
+### Results
+After developing the model, we achieved significant results. We calculated BLEU scores for the test images, as shown in the figure below.
+
+
+![image](https://user-images.githubusercontent.com/66510032/207243694-84045556-919d-4c57-814b-e1cde8612762.png)
